@@ -1,0 +1,24 @@
+{
+    "name": "lgy/composer_test",
+    "description": "This a demo for build composer packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lgy",
+            "email": "18612192370@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
